@@ -8,7 +8,7 @@ It contains 246 countries, 4156 regions and 101.907 cities.
 
 First, 
 
-git clone 
+git clone git@github.com:TonySheva/World-Country-City-Region-DB.git 
 
 Second, 
 
