@@ -15,10 +15,10 @@
 -- --------------------------------------------------------
 
 --
--- Table structure for table `region`
+-- Table structure for table `regions`
 --
 
-CREATE TABLE IF NOT EXISTS region (
+CREATE TABLE IF NOT EXISTS regions (
    id bigserial primary key,
    country_id integer DEFAULT NULL,
    name varchar(64) NOT NULL,
@@ -27,10 +27,10 @@ CREATE TABLE IF NOT EXISTS region (
 ); 
 
 --
--- Dumping data for table `region`
+-- Dumping data for table `regions`
 --
 
-INSERT INTO region (id, name, country_id, geo_lat, geo_lng) VALUES
+INSERT INTO regions (id, name, country_id, geo_lat, geo_lng) VALUES
 (256, 'Andorra la Vella\r', 1, NULL, NULL),
 (257, 'Canillo\r', 1, NULL, NULL),
 (258, 'Encamp\r', 1, NULL, NULL),
@@ -1204,7 +1204,7 @@ INSERT INTO region (id, name, country_id, geo_lat, geo_lng) VALUES
 (1427, 'Gateshead\r', 76, NULL, NULL),
 (1428, 'Glasgow City\r', 76, NULL, NULL),
 (1429, 'Gloucestershire\r', 76, NULL, NULL);
-INSERT INTO region (id, name, country_id, geo_lat, geo_lng) VALUES
+INSERT INTO regions (id, name, country_id, geo_lat, geo_lng) VALUES
 (1430, 'Grampian\r', 76, 52.87985000000, -1.49550500000),
 (1431, 'Greater London\r', 76, NULL, NULL),
 (1432, 'Greater Manchester\r', 76, 53.44236200000, -2.23348000000),
@@ -2338,7 +2338,7 @@ INSERT INTO region (id, name, country_id, geo_lat, geo_lng) VALUES
 (2560, 'Negotino\r', 143, NULL, NULL),
 (2561, 'Negotino-Polosko\r', 143, NULL, NULL),
 (2562, 'Novaci\r', 143, 41.04707000000, 21.46995500000);
-INSERT INTO region (id, name, country_id, geo_lat, geo_lng) VALUES
+INSERT INTO regions (id, name, country_id, geo_lat, geo_lng) VALUES
 (2563, 'Novo Selo\r', 143, 41.41817800000, 22.87933000000),
 (2564, 'Oblesevo\r', 143, 41.89201000000, 22.33404900000),
 (2565, 'Ohrid\r', 143, NULL, NULL),
@@ -3456,7 +3456,7 @@ INSERT INTO region (id, name, country_id, geo_lat, geo_lng) VALUES
 (3677, 'Nova Gorica\r', 199, 45.95578000000, 13.65504500000),
 (3678, 'Novo Mesto\r', 199, 45.80565000000, 15.17581500000),
 (3679, 'Odranci\r', 199, NULL, NULL);
-INSERT INTO region (id, name, country_id, geo_lat, geo_lng) VALUES
+INSERT INTO regions (id, name, country_id, geo_lat, geo_lng) VALUES
 (3680, 'Ormoz\r', 199, 46.40585900000, 16.15333900000),
 (3681, 'Osilnica\r', 199, NULL, NULL),
 (3682, 'Pesnica\r', 199, 46.61774400000, 15.67375100000),

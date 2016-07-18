@@ -16,8 +16,8 @@ su - postgres
 
 Then you can
 
-psql -d tableName -f path/worlddb/city.sql;
-psql -d tableName -f path/worlddb/country.sql;
-psql -d tableName -f path/worlddb/region.sql;
+psql -d tableName -f path/city.sql;
+psql -d tableName -f path/country.sql;
+psql -d tableName -f path/region.sql;
 
 hope i can help you : )
